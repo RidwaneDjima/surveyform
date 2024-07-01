@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Premier League Entertainment Survey</title>
+    <link rel="stylesheet" href="survey.Form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="title"> How can the Premier League improve their entertainment value?</h1>
+<p id="description"> Thank you for taking the time to help the Premier League! </p>
+<form action="" id="survey-form">
+    <div class="form-div">
+     <label id="name-label">Name</label>
+     <input id="name" type="text" name="name" required placeholder="Enter your name">
+     </div>
+    <div class="form-div">
+  <label id="email-label">Email</label>
+   <input id="email" type="email" name="email" required placeholder="Enter your Email">
+   </div>
+<div class="form-div">
+<label id="number-label">Age (optional)</label>
+<input id="number" type="number" name="age" min="8" max="120" placeholder="Age">
+</div>
+<div class="form-div">
+<label id="dropdown-label">What is your favourite team?</label>
+<select id="dropdown" name="dropdown">
+  <option value="">Select a team</option> 
+<option value="1">Chelsea</option>
+        <option value="2">Fulham</option>
+        <option value="3">Liverpool</option>
+        <option value="4">Burnley</option>
+        <option value="5">Manchester United</option>
+        <option value="6">Sheffield United</option>
+        <option value="7">Everton</option>
+        <option value="8">Tottenham Hotspur</option>
+        <option value="9">Brentford</option>
+        <option value="10">Crystal Palace</option>
+        <option value="11">West Ham United</option>
+        <option value="12">Wolves</option>
+        <option value="13">Newcastle United</option>
+        <option value="14">Bournemouth</option>
+        <option value="15">Brighton</option>
+        <option value="16">Manchester City</option>
+        <option value="17">Luton Town</option>
+        <option value="18">Nottingham Forest</option>
+</select></div>
+<div class="form-div">
+<label id="label-radio"> Have you ever attended a match?</label>
+</div>
+<div class="form-radio">
+<label id="yes">
+<input type="radio" name="option"  value="yes">Yes</label>
+</div>
+<div class="form-radio"><label id="no">
+<input type="radio" name="option" value="no">No</label>
+</div>
+<div class="form-div">
+  <label id="label-checkbox"> Which suggestions do you believe are good ideas for Premier League to implement?</label>
+  </div>
+  <div class="div-checkbox">
+ <label><input type="checkbox" name="improvement" value="1">Indoor football matches</label>
+ </div>
+ <div class="div-checkbox">
+ <label><input type="checkbox" name="improvement" value="2">Cheaper food</label>
+ </div>
+ <div class="div-checkbox">
+ <label ><input type="checkbox" name="improvement" value="3">Cheaper tickets</label>
+ </div>
+ <div class="div-checkbox">
+ <label><input type="checkbox" name="improvement" value="4">Veteran/Iconic Commentators</label>
+ </div>
+ <div class="div-checkbox">
+ <label><input type="checkbox" name="improvement" value="5">Senior (Experienced) referees</label>
+ </div>
+<div class="div-checkbox">
+ <label><input type="checkbox" name="improvement" value="6">Super teams</label>
+ </div>
+ <div class="form-div">
+   <label id="label-textarea">Additional comments or suggestions?</label>
+   <br>
+<textarea name="suggestion" placeholder="Enter your comments here..."></textarea>
+</div>
+<div class = "form-div btn">
+<input id="submit" type="submit" value="Submit">
+</div>
+</form>    
+</body>
+</html>
